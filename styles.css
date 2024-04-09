@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title-box {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.main-content {
+    margin-top: 100px; /* Adjust as necessary */
+    text-align: center;
+}
+
+.left-column,
+.right-column {
+    display: inline-block;
+    width: 45%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
